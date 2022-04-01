@@ -1,3 +1,19 @@
-.wow {
-  width: 100px;
+header {
+  border: 2px solid yellow;
+}
+
+main {
+  border: 2px solid #00a30b;
+}
+
+nav {
+  border: 2px solid #ff0000;
+}
+
+section {
+  border: 2px solid #ff00f7;
+}
+
+footer {
+  border: 2px solid #00ccff;
 }
