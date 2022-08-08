@@ -1,30 +1,135 @@
-header {
-  border: 2px solid yellow;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;0,900;1,500&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+	font-family: 'Poppins', sans-serif;
 }
 
-main {
-  border: 2px solid #00a30b;
-    
-   
+
+* {
+	top: 0;
+	margin: 0;
 }
 
-nav {
-  border: 2px solid #ff0000;
-    display: flex;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
 }
 
-ul {
-    
+.paginainicial {
+  background-color: lightgreen;
+  color: white;
 }
 
-section {
-  border: 2px solid #ff00f7;    
+.flex {
+	display: flex;	
 }
 
-footer {
-  border: 2px solid #00ccff;
+.column {
+  flex-direction: column;
 }
 
-body {
-    
+.padding-10 {
+  padding: 10%;
+} 
+
+.padding-3 {
+	padding: 3%;
+}
+
+.padding-3 h3, .sonhos div h3 {
+	color: #2c88d9;
+	text-transform: uppercase;
+	padding-bottom: 10px;	
+}
+
+.padding-3 p {
+	line-height: 1.5;
+	color: #3f504d;
+}
+
+.box h4 {
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+.box p {
+	line-height: 1.5;
+}
+
+.olive {
+	background-color: #90bcb3;
+	color: white;
+}
+
+.header, .footer {
+	padding: 3%;
+}
+
+.navbar {
+	background-color: #dfe6ed;	
+}
+
+.navbar ul {
+	width: 100%;
+}
+
+.navbar ul {
+	padding: 1%;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: #2c88d9;
+}
+
+.sonhos {
+	border: 2px solid #c3cfd9;
+	padding: 3%;
+}
+
+.sonhos div {
+	padding-right: 25px;
+}
+
+.btnlink {
+	background-color: #207868;
+	color: white;
+	border: #c3cfd9;
+	padding: 15px;
+}
+
+.footer {
+  background-color: #90bcb3;
+  color: black;
+	width: 100%;
+	
+}
+
+.footer a {
+	text-decoration:none;
+	color: black;
+}
+
+.footer div {
+	padding: 10px;
+}
+
+.space-btw {
+	justify-content: space-between;
+}
+
+.center {
+	justify-content: center;
+	text-align: center;
+}
+.cadastro{
+  background-color:  #90bcb3;
+  color: white;
+}
+.cadastroparaafilhad{
+   background-color:  #90bcb3;
+  color: white;
 }

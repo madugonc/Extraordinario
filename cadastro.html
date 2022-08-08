@@ -5,24 +5,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css" />
-    <h1> CADASTRO PARA APADRINHAMENTO</h1>
+    <title> CADASTRO PARA APADRINHAMENTO</title>
 </head> 
-<body
-  <nav>
+<body>
+    <div class="container">
+      <header class="header olive">
+        <h1>CADASTRO PARA PADRINHOS</h1>
+      </header>
+      <nav class="navbar grey">
        <ul>
-        <li><a href="index.html">Voltar ao íncio</a></li>
-        <li><a href="cadastroparaafilhad.html">Cadastro para apadrinhados</a></li>
-        <li><a href= "login.html">Login</a></li>
+        <li><a href="index.html">VOLTAR AO ÍNICIO</a></li>
+        <li><a href="cadastroparaafilhad.html">CADASTRO PARA AFILHADOS</a></li>
+        <li><a href= "login.html">LOGIN</a></li>
       </ul>
-  </nav>
+        </nav>
+    </div>
+  
   
     <form>
     <input type="radio" id= "Prestador de Serviços" name= "topics"
       value="Prestador de Serviços"
-      label for= "Prestador de Serviços">Prestador de serviço</label><br>
+      label for= "Prestador de Serviços">Prestador de serviço</label>
       <input type= "radio" id= "Provedor" name= "topicos"
         value= "Provedor">
-      <label for= "Provedor">Provedor</label>
+      <label for= "Provedor">Provedor</label> 
       
         
    <p> <label for= "nome">Seu Nome: </label>
@@ -93,17 +99,75 @@
 
       <input type="radio" id="imovel_cedido" name=cedido value="Cedido">
       <label for="imovel_cedido">Cedido</label><br>
-
-      <input type="number" id=
-      
+<p>
+      <label for="telefone">Telefone: </label>
+      <input type="number" id="telefone" name="telefone"
+</p>
+        <p>
+          <label for="profissao">Profissão: </label>
+          <input type="text" id="profissao" name="profissao"
+        </p>
+<p>
+  <label for="escolaridade">Escolaridade: </label>
+  <input type="text" id="escolaridade" name="escolaridade"
+</p>
+<p>
+  <label for="empresa">Empresa: </label>
+  <input type="text" id="empresa" name="empresa"
+</p>
+      <P>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email"
+      </P>
+<p>
+  <label for="nucleo">Composição do Núcleo familiar: </label>
+   <input type="number" id=nucleo name=nucleo
+     
+                                                       </p>
+<p>
+  <label for="estado">Estado Civil: </label>
+  <input type="text" id=estado name=estado
+</p>
+<p>
+  <label for="motivacao">O que te motivou a ser padrinho/madrinha?: </label>
+  <input type="text" id=motivacao name=motivacao
+</p>
+      <p>
+   <form action="/action_page.php">
+      <input type="checkbox" id="termos" name="termos" value="termos"
+        <label for="termos">Li e concordo com os termos de uso</label><br>
+     </p>
+     <form action="/action_page.php">
+       <input type="checkbox" id="nov" name="nov" value="nov"
+         <label for="nov">Desejo receber novidades por email</label><br>
       </form>
 
-    </body>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-  
-  <script src="script.js"></script>
-</body>
+     <a href="enviar.html"><button class="btnlink">ENVIAR</button></a>
 
-</html>
+   <div class="container flex">
+  <footer class="footer">
+		<div class="flex space-btw">
+      <div>
+        <h4>NOSSAS REDES</h4>
+				<ul>
+					<li><a href= "instagram.com">Instagram </a></li>
+					<li><a href= "whatsapp.html"> WhatsApp</a></li>        
+				</ul>        
+      </div>
+      <div>
+        <h4> TELEFONES </h4>
+        <br> (71) 99999-9999 <br>
+          (71) 93325-6666
+        </div>
+        <div>
+          <h4>EMAIL</h4>
+        daumhelp01@gmail.com
+        </div>
+    </div>
+		<div class="center">Todos os direitos reservados  © 2022</div>
+  </footer>   
+</div>
+  <script src="script.js"></script>
+
+</footer></div>
+   </html>
